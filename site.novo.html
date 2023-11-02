@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2}
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://ead.ifrn.edu.br/ajuda/wp-content/uploads/2022/07/IFRN-Horizontal-Transparente-1.png" alt="Logo-IFRN" width="450px">
+    <img src="https://suap.ifrn.edu.br/media/edu/material_aula/EXPOTEC_2023_11-3f67b11b85f547539097bcf87c643856.png" alt="Logo-Expotec" width="200px">
+    <h2>Programação do Evento</h2>
+    <table>
+        <tr>
+            <th>Data</th>
+            <th>Horário</th>
+            <th>Atividade</th>
+        </tr>
+        <tr>
+            <td>15/10/2022</td>
+            <td>9:00 - 10:00</td>
+            <td>Palestra: Avanços Tecnológicos para um Futuro Sustentável</td>
+        </tr>
+        <tr>
+            <td>16/10/2022</td>
+            <td>13:00 - 15:00</td>
+            <td>Mesa Redonda: Diversidade Humana no Campo Científico e Tecnológico</td>
+        </tr>
+        <tr>
+            <td>17/10/2022</td>
+            <td>10:00 - 12:00</td>
+            <td>Workshop: Técnicas de Sustentabilidade Aplicadas na Prática</td>
+        </tr>
+    </table>
+
+    <h2>Formulário de Inscrição</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+        
+        <label for="instituicao">Instituição:</label>
+        <input type="text" id="instituicao" name="instituicao"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
